@@ -7,11 +7,11 @@ const ThemeSwitcher = () => {
     return (
         <div className="buttonSwitch" style={{
             background: theme === 'light' ? 'white' : 'black',
-            color: theme === 'light' ? 'black' : 'white'
+            color: theme === 'light' ? 'black' : 'white',
+            height: "100%"
         }}>
-            <p>Current theme: {theme}</p>
-            <button onClick={toggleTheme}>
-                Toggle Theme
+            <button className="button-cv" onClick={toggleTheme}>
+                Download CV
             </button>
         </div>
     );

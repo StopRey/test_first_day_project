@@ -6,6 +6,8 @@ import Navbar from './components/navbar/Navbar';
 import Container from './components/container/Container';
 import BannerFirst from "./components/bannerFirst/BannerFirst";
 import AboutMe from "./components/bannerFirst/AboutMe";
+import Services from "./components/services/Services";
+import MyProjects from "./components/myProjects/MyProjects";
 
 function App() {
     return (
@@ -14,9 +16,9 @@ function App() {
                 <Navbar />
                 <BannerFirst />
                 <AboutMe />
+                <Services />
+                <MyProjects />
 
-
-                <ThemeSwitcher />
             </Container>
         </ThemeProvider>
     );

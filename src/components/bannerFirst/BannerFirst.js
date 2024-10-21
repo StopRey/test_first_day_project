@@ -3,6 +3,7 @@ import { useTheme } from '../ThemeContext';
 import './bannerFirst.css';
 import SocialMediaBanner from "./socialMediaBanner/SocialMediaBanner";
 import photoFirst from './socialMediaBanner/photo/photoFirst.png';
+import ThemeSwitcher from "../themeSwitcher/ThemeSwitcher";
 
 const BannerFirst = () => {
     const { theme } = useTheme();

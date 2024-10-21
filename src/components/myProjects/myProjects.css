@@ -1,0 +1,59 @@
+.projectsDiv{
+    padding: 61px 251px;
+    width: calc(100% - 502px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-text-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    justify-content: space-between;
+}
+
+.projects-display{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.buttons-project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width:100%;
+    max-width:800px;
+    margin: 70px;
+}
+
+.filter-button {
+    background-color: #F3F3F3;
+    color: black;
+    border-radius: 10px;
+    padding:20px;
+    font-size: 24px;
+    cursor: pointer;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-button.active {
+    color: white;
+    background-color: #FD6F00;
+}
+
+.filter-button:hover {
+    background-color: darkgrey;
+}
+
+.filter-button.active:hover {
+    background-color: orangered;
+}

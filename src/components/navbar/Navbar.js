@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTheme } from '../ThemeContext';
 import './navbar.css';
+import ThemeSwitcher from "../themeSwitcher/ThemeSwitcher";
 
 const Navbar = () => {
     const { theme } = useTheme();
@@ -27,7 +28,7 @@ const Navbar = () => {
                 <span className="theme-text">Projects</span>
                 <span className="theme-text">Testimonials</span>
                 <span className="theme-text">Contact Us</span>
-                <button className="button-cv">Download CV</button>
+                <ThemeSwitcher />
             </div>
 
 

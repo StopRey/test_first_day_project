@@ -1,0 +1,59 @@
+.servicesDiv{
+    padding: 61px 251px;
+    width: calc(100% - 502px);
+    height: 584px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-text-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 27%;
+    justify-content: space-between;
+}
+.services-boxes-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60%;
+    width:100%;
+}
+
+.services-box{
+    width:20%;
+    aspect-ratio: 1;
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sevices-text-middle{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services-text-bottom{
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services-box-photo{
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.services-box-photo-div{
+    height: 70px;
+    overflow: hidden;
+}
