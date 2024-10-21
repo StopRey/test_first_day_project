@@ -9,11 +9,15 @@ const Navbar = () => {
         backgroundColor: theme === 'light' ? 'white' : 'black',
     };
 
+    const textNameStyle = {
+        color: theme === 'light' ? 'black' : 'white',
+    };
+
     return (
         <div style={navbarDivStyle} className="navbarDiv">
             <div className="text-container">
                 <span className="highlight">M</span>
-                <p className={`text-name ${theme}-theme`}>uhammad</p>
+                <p style={textNameStyle} className="text-name">uhammad</p>
             </div>
 
             <div className={`buttons-container ${theme}-theme`}>
