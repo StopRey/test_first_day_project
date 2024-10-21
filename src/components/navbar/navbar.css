@@ -1,0 +1,6 @@
+.navbarDiv{
+    margin: 61px 251px;
+    background-color: orange;
+    width: calc(100% - 502px);
+    height: 54px;
+}
