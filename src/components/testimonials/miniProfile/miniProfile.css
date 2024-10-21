@@ -1,0 +1,76 @@
+.mini-profile-div{
+    background-color: #F8F8F8;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-profile-div-left{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-profile-div-right{
+    padding-right: 50px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width:700px;
+}
+
+.mini-profile-photo{
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mini-profile-text{
+    font-size: 21px;
+    color: #424242;
+    position: relative;
+}
+
+.mini-profile-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mini-profile-role{
+    font-size: 19px;
+    color: black;
+}
+
+.mini-profile-text::before {
+    content: '“';
+    color: #FD6F00;
+    position: absolute;
+    left: -25px;
+    top: -20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mini-profile-text::after {
+    content: '”';
+    color: #FD6F00;
+    position: absolute;
+    right: -30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mini-profile-text-div{
+    display: flex;
+    flex-direction: column;
+
+}

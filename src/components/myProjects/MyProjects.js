@@ -41,8 +41,8 @@ const MyProjects = () => {
     return (
         <div style={projectsDivStyle} className="projectsDiv">
             <div className="projects-text-div">
-                <span className="about-me-text-main">My Projects</span>
-                <span className="banner-text-bottom">Lorem ipsum dolor sit amet consectetur.
+                <span style={textNameStyle} className="about-me-text-main">My Projects</span>
+                <span style={textNameStyle} className="banner-text-bottom">Lorem ipsum dolor sit amet consectetur.
                             Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante.
                             Aliquet ornare tellus consectetur lacus</span>
             </div>

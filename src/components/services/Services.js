@@ -20,8 +20,8 @@ const Services = () => {
     return (
         <div style={servicesDivStyle} className="servicesDiv">
             <div className="services-text-div">
-                <span className="about-me-text-main">Services</span>
-                <span className="banner-text-bottom">Lorem ipsum dolor sit amet consectetur.
+                <span style={textNameStyle} className="about-me-text-main">Services</span>
+                <span style={textNameStyle} className="banner-text-bottom">Lorem ipsum dolor sit amet consectetur.
                             Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante.
                             Aliquet ornare tellus consectetur lacus</span>
             </div>

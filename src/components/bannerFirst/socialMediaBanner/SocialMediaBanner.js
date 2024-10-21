@@ -9,7 +9,9 @@ function SocialMediaBanner({ theme, image }) {
                 <div className="circle-first"></div>
                 <div className="circle-second"></div>
                 <div className="circle-third"></div>
-                <img src={image} alt="Photo"/>
+                <div className="photo-container">
+                    <img src={image} alt="Photo"/>
+                </div>
             </div>
         </div>
     );
