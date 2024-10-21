@@ -1,0 +1,40 @@
+.footerDiv{
+    display: flex;
+    height: 552px;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+.footerDivTop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerDivBottom{
+    height: 84px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-container-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-text-bottom{
+    font-size: 21px;
+    color:white;
+}
+
+.footer-text-bottom-highlight{
+    color:#FD6F00;
+}

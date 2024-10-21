@@ -8,6 +8,9 @@ import BannerFirst from "./components/bannerFirst/BannerFirst";
 import AboutMe from "./components/bannerFirst/AboutMe";
 import Services from "./components/services/Services";
 import MyProjects from "./components/myProjects/MyProjects";
+import Testimonials from "./components/testimonials/Testimonials";
+import LetsDesign from "./components/letsDesign/LetsDesign";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -18,7 +21,9 @@ function App() {
                 <AboutMe />
                 <Services />
                 <MyProjects />
-
+                <Testimonials />
+                <LetsDesign />
+                <Footer />
             </Container>
         </ThemeProvider>
     );
