@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/styles.css';
+import { ThemeProvider } from './components/ThemeContext';
+import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
+import Navbar from './components/navbar/Navbar';
+import Container from './components/container/Container';
+import BannerFirst from "./components/bannerFirst/BannerFirst";
+import AboutMe from "./components/bannerFirst/AboutMe";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ThemeProvider>
+            <Container>
+                <Navbar />
+                <BannerFirst />
+                <AboutMe />
+
+
+                <ThemeSwitcher />
+            </Container>
+        </ThemeProvider>
+    );
 }
 
 export default App;
